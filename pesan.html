@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/pesan.css">
+</head>
+
+<body>
+    <div class="row">
+    <div class="img">
+        <center>
+    <img src="images/men1.svg" alt="">
+    <img src="images/men2.svg" alt="">
+</center>
+</div>
+</div>
+
+<script type="text/javascript">
+var counter = 1;
+setInterval(function(){
+document.getElementById('radio' + counter).checked = true;
+counter++;
+if(counter > 4){
+    counter = 1;
+}
+}, 5000);
+</script>
+
+
+    <!-- form -->
+    <div class="container register">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel"
+                    aria-labelledby="home-tab">
+                    <text-pesan class="register-heading text-nowrap">Form Pemesanan Zezee Coffee</h1>
+                        <br>
+                    <div class="row register-form">
+                        <div class="col-md-12">
+                            <form autocomplete="off">
+                                <div class="form-group">
+                                    <input type="text" name="Name" id="name" class="form-control"
+                                        placeholder="Nama" value="" required="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" min="1" max="10" name="Phone" id="phone" class="form-control"
+                                        placeholder="Nomor Meja" value="" required="" />
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" id="message" cols="51" rows="4" placeholder="Tulis Pesananmu di sini*"  value="" required="" ></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="button" name="submit" class="btnSubmit btn-block" onclick="gotowhatsapp()" value="Pesan" />
+                                </div>
+                                <br>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        function gotowhatsapp() {
+
+            var name = document.getElementById("name").value;
+            var phone = document.getElementById("phone").value;
+            var massage = document.getElementById("message").value;
+
+            var url = "https://wa.me/6285656033333?text="
+                + "Nama: " + name + "%0a"
+                + "Nomor Meja: " + phone + "%0a"
+                + "Pesanan: " + massage + "%0a"
+
+            window.open(url, '_blank').focus();
+        }
+    </script>
+</body>
+
+</html>

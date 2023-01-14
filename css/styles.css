@@ -1,0 +1,579 @@
+body{
+    font-family: 'Montserrat';
+    background-color: #fff;
+}
+
+#title{
+    background-color: #D0B8A8;
+    color: #fff;
+    border-radius: 50px 50px 50px 50px;
+    margin: 20px;
+}
+
+sub-title{
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 5% 0% 5% 0%;
+}
+h1{
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 5vh;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #815B5B;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+h3{
+    font-family: 'Cormorant Garamond';
+    font-weight: 800;
+}
+
+h3-footer{
+    font-family: 'Cormorant Garamond';
+    font-weight: bolder;
+}
+
+h3-footer-xs{
+    font-family: 'Cormorant Garamond';
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #815B5B;
+}
+
+h3-testi{
+    font-family: 'Quicksand';
+    font-weight: 800;
+    line-height: 5%;
+    font-size: 1.25rem;
+    color: #815B5B;
+}
+para-testi{
+    font-family: 'Cormorant Garamond';
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #815B5B;
+}
+h6{
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 5% 0% 5% 0%;
+}
+
+text-menu{
+    font-family: 'Quicksand';
+    font-weight: 800;
+    line-height: 5%;
+    font-size: 1rem;
+    color: #815B5B;
+    text-align: center;
+}
+
+text-feature{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #815B5B;
+}
+
+text-zezee {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #815B5B;
+}
+text-ttl{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #815B5B;
+}
+
+text-carousel{
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #fff;
+    background-color: #614545;
+    padding: 10px 20px;
+}
+
+text-click{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #fff;
+}
+
+text-footer {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5vh;
+    font-weight: 800;
+    color: #815B5B;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+iframe{
+    width: 1000px;
+    height: 500px;
+}
+.container-fluid{
+    padding: 5% 15% 5%;
+}
+/*Navbar */
+
+.navbar{
+    padding: 0 0 4.5rem ;
+}
+.navbar-brand{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.nav-item{
+    padding: 0 18px;
+    text-align: left;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Quicksand';
+    font-weight: 800;
+}
+
+.row-title {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        align-items: center;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.row-menu {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+/*Buttons*/
+.download-button{
+    margin: 5% 2% 5% 0%;
+    width: 150px;
+}
+/*Title image*/
+.title-image{
+    width: 75%;
+    position: relative;
+    left: 30%;
+    
+    
+}
+
+/*Features*/
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;  
+}
+
+#pricing{
+    background-color: #fff;
+    padding: 10% 10%;
+    position: block;  
+}
+
+.feature-box{
+    text-align: justify;
+    padding: 2%;
+}
+.icon{
+    color: #D0B8A8;
+    margin-bottom: 1rem;
+
+}
+.icon:hover{
+    color: #815B5B;
+}
+/*testimonials*/
+#testimonials{
+    text-align: center;
+    background-color: #fff;
+    color: #fff;
+    position: relative;
+}
+.carousel-item{
+    padding: 2% 8%;
+}
+.testimonial-image{
+    width: 800px;
+    height: 450px;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.pricing-column{
+    padding: 2% 2%;
+    width: auto;
+    background-color: #fff;
+    color: #815B5B;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+        padding-top: 25%;
+    }
+    .testimonial-image{
+        width: 100%;
+        height: 50%;
+        margin: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .download-button{
+        margin: 5% 2% 5% 0%;
+        width: 100px;
+    }
+
+    h1{
+        font-family: 'Cormorant Garamond', sans-serif;
+        font-size: 3vh;
+        line-height: 1.5;
+        font-weight: 400;
+        color: #815B5B;
+    
+    }
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width:768px){
+    .title-image{
+        padding-top: 25%;
+        position: static;
+        transform: rotate(0deg);
+    }
+    .testimonial-image{
+        width: 100%;
+        height: 50%;
+        margin: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    h1{
+        font-family: 'Cormorant Garamond', sans-serif;
+        font-size: 3vh;
+        line-height: 1.5;
+        font-weight: 400;
+        color: #815B5B;
+    }
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    .download-button{
+        margin: 5% 2% 5% 0%;
+        width: 100px;
+    }
+
+}
+
+
+#cta{
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    padding: 5% 5%;
+    border-radius: 50px 50px 50px 50px;
+    margin: 20px;
+}
+
+.cta-heading{
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #815B5B;
+
+}
+#footer{
+    padding: 10% 10%;
+    text-align: center;
+
+}
+.social-icon{
+    margin: 20px 10px;
+}
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    text-align: center;
+}
+
+.card-header {
+    background-color: #fff;
+    text-align: center;
+}
+
+.card-footer {
+    background-color: #fff;
+    height: auto;
+    text-align: center;
+    border-top: 0px solid rgba(0,0,0,.125);
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: inline;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+}
+.card-body {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+.card-image{
+    width: 16rem;
+    height: 16rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.payment{
+    color: #fff;
+    background-color: #815B5B;
+    border-color: #815B5B;
+    font-family: 'Quicksand';
+    font-weight: 800;
+    line-height: 5%;
+    height: 30px;
+    width: 150px;
+    font-size: 1rem;
+    padding: 2% 2%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.pay-text{
+    color: #fff;
+}
+.logo{
+    border-radius: 80%;
+}
+.content-section {
+    margin: 1em;
+    
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0em;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.cart-row {
+    display: -webkit-box;
+}
+
+.cart-item {
+    position: relative;
+    width: 40%;
+    font-family: 'Quicksand';
+    font-weight: 800;
+    line-height: 5%;
+    font-size: 1rem;
+    color: #815B5B;
+}
+
+.cart-price {
+    width: 30%;
+    font-family: 'Quicksand';
+    font-weight: 800;
+    line-height: 5%;
+    font-size: 1rem;
+    color: #815B5B;
+}
+
+.cart-quantity {
+    width: auto;
+    font-family: 'Quicksand';
+    font-weight: 800;
+    line-height: 5%;
+    font-size: 1rem;
+    color: #815B5B;
+}
+
+.cart-item-title {
+    width: 50%;
+    font-family: 'Quicksand';
+    font-weight: 800;
+    line-height: 100%;
+    word-wrap: break-word;
+    font-size: 1rem;
+    color: #815B5B;
+    margin-left: .5em;
+}
+
+.cart-item-image {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #dc3545;
+    border: none;
+    font-weight: 800;
+}
+
+.btn-danger:hover {
+    background-color: #8d242f;
+}
+
+.btn-outline-light {
+    color: #fff;
+    border-color: #815B5B;
+    background-color: #815B5B;
+}
+
+.btn-outline-dark {
+    color: #fff;
+    background-color: #815B5B;
+    border-color: #815B5B;
+    font-family: 'Quicksand';
+    font-weight: 800;
+    line-height: 5%;
+    height: 30px;
+    width: 150px;
+    font-size: 1rem;
+    padding: 2% 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-outline-light:hover {
+    color: #fff;
+    background-color: #614545;
+    border-color: #614545;
+}
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #614545;
+    border-color: #614545;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cart-total-title {
+    margin-right: 20px;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    line-height: 5%;
+    font-size: 1rem;
+    color: #815B5B;
+    position: center;
+}
+
+.cart-total-price {
+    font-family: 'Quicksand';
+    font-weight: 800;
+    line-height: 5%;
+    font-size: 1rem;
+    color: #815B5B;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+.fa-4x {
+    font-size: 2.5em;
+}

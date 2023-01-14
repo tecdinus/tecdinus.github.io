@@ -1,0 +1,221 @@
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    text-align: center;
+    }
+    
+    text-pesan {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.25rem;
+        font-weight: 800;
+        color: #815B5B;
+    }
+
+h1 {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #815B5B;
+}
+
+    .row{
+    display: contents;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 10px;
+    height: 75%;
+    }
+
+    .slider{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    align-self: center;
+    overflow: initial;
+    }
+
+    .slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+    }
+
+    .slides input{
+    display: none;
+    }
+
+    img{
+    width: 25%;
+    }
+
+    @media (max-width:1028px){
+        col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+            position: relative;
+            width: 100%;
+            padding-right: 20px;
+            padding-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 85%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+    }
+    @media (max-width:768px){
+        col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+            position: relative;
+            width: 100%;
+            padding-right: 20px;
+            padding-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 85%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+        
+    }
+
+    .
+    /*css for manual slide navigation*/
+
+    .navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    }
+
+    .manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+
+    .manual-btn:not(:last-child){
+    margin-right: 40px;
+    }
+
+    .manual-btn:hover{
+    background: #40D3DC;
+    }
+
+    #radio1:checked ~ .first{
+    margin-left: 0;
+    }
+
+    #radio2:checked ~ .first{
+    margin-left: -20%;
+    }
+
+    
+    
+
+    /*css for automatic navigation*/
+
+    .navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+    }
+
+    .navigation-auto div{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    }
+
+    .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+    }
+
+    #radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #815B5B;
+    }
+
+    #radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #815B5B;
+    }
+
+   
+
+    /* punya form */
+    .register .nav-tabs .nav-link:hover {
+        border: none;
+    }
+
+    textarea {
+        overflow: auto;
+        resize: vertical;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+
+    .register-heading {
+        margin-bottom: 10%;
+        color: #815B5B;
+    }
+
+    .register-heading h1 {
+        margin-left: 21%;
+        margin-bottom: 10%;
+        color: #e9ecef;
+    }
+
+    .btnSubmit {
+        width: 50%;
+        border-radius: 1rem;
+        padding: 1.5%;
+        color: #fff;
+        background-color: #815B5B;
+        border: none;
+        cursor: pointer;
+        margin-right: 6%;
+        color: rgb(246, 246, 252);
+        margin-top: 4%;
+    }
